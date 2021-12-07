@@ -16,12 +16,12 @@ You can build the environment using poetry below:
 You have to change `etc/ImageMagick-6/policy.xml`.
 
 before change
-.. code-block:: xml
+.. code-block:: XML
     <policy domain="coder" rights="none" pattern="PS" />
     <policy domain="coder" rights="none" pattern="PDF" />
 
 after
-.. code-block:: xml
+.. code-block:: XML
     <policy domain="coder" rights="read|write" pattern="PS" />
     <policy domain="coder" rights="read|write" pattern="PDF" />
 
