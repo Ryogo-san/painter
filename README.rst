@@ -34,7 +34,8 @@ How to Use
 ==========
 
 .. code-block:: sh
-   poetry run python3 paint/window.py --cls "あ"
+
+    poetry run python3 paint/window.py --cls "あ"
 
 To Do
 ======
