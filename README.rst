@@ -30,6 +30,11 @@ after
     <policy domain="coder" rights="read|write" pattern="PS" />
     <policy domain="coder" rights="read|write" pattern="PDF" />
 
+How to Use
+==========
+
+.. code-block:: sh
+   poetry run python3 paint/window.py --cls "あ"
 
 To Do
 ======
