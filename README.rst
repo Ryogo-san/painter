@@ -10,18 +10,21 @@ Requirements
 
 You can build the environment using poetry below:
 
-.. code-block:: bash
+.. code-block:: sh
+   
     poetry install
 
 You have to change `etc/ImageMagick-6/policy.xml`.
 
 before change
 .. code-block:: XML
+
     <policy domain="coder" rights="none" pattern="PS" />
     <policy domain="coder" rights="none" pattern="PDF" />
 
 after
 .. code-block:: XML
+
     <policy domain="coder" rights="read|write" pattern="PS" />
     <policy domain="coder" rights="read|write" pattern="PDF" />
 
